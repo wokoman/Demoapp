@@ -19,5 +19,6 @@ module Demoapp
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    config.secret_key_base = 'ca6ecf2a39af04ba2ee9959cb026389731d67e40bd72804164942698c93a4f603bb48806fc39993f0cc392d7a27bef989973e43fff0a757ad280a9ab76bbb1dd'
   end
 end
